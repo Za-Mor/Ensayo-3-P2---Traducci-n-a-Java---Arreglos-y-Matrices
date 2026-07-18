@@ -32,7 +32,7 @@ public class Ejercicio_5 {
       
       System.out.println("---------------");
      
-      for ( int i=0; i<=12; i++) {
+      for ( int i=0; i<12; i++) {
       System.out.println("posicion " + (i + 1) + ": " + num[i]);
     }
    }
