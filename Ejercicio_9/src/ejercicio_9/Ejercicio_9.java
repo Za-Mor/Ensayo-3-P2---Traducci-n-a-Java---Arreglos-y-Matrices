@@ -44,6 +44,17 @@ public class Ejercicio_9 {
             }
 
         }
+
+        for (int i=1 ; i< num.length; i++) {
+           for (int j=0 ; j<num[i].length; j++) {
+             
+             System.out.print(num[i][j] + " ");  
+                 
+           }
+           System.out.println();
+        }
+        
+
         
        System.out.println("------");   
        System.out.println("el numero menor es: " + menor );
