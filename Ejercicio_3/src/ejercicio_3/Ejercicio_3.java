@@ -33,7 +33,7 @@ public class Ejercicio_3 {
             if (num[i] >= mayor) {
                 mayor = num[i]; 
                 posiMa = (i + 1);
-                
+             }    
                if (num[i] <= menor) {
                 menor = num[i];    
                 posiMe = i + 1;
