@@ -27,6 +27,14 @@ public class Ejercicio_7 {
                suma += num[i][j];
            }
         }
+           
+           for (int i=0 ; i< num.length; i++) {
+              for (int j=0 ; j<num[i].length; j++) { 
+               
+                System.out.print(num[i][j] + " ");  
+              }
+               System.out.println(" ");
+           }
     
              System.out.println("La suma total de todos los elementos es: " + suma);
             
