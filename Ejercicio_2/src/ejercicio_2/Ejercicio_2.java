@@ -19,7 +19,7 @@ public class Ejercicio_2 {
       System.out.println("Bienvenido");
       System.out.println("---------------");
      
-     for ( int i=0; i<=10; i++) {
+     for ( int i=0; i<10; i++) {
        System.out.println("Ingrese un numero real para la posicion " + (i+1) + ":" );
          num[i] = sc.nextDouble();
          suma = (suma + num[i]);
