@@ -26,7 +26,7 @@ public class Ejercicio_3 {
       posiMa = num[0];
       posiMe = num[0];
       
-     for ( int i=1; i<=15; i++) {
+     for ( int i=1; i<15; i++) {
        System.out.println("Ingrese otro numero entero: " );
          num[i] = sc.nextInt();
          
