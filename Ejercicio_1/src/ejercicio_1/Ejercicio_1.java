@@ -15,7 +15,7 @@ public class Ejercicio_1 {
          System.out.println("Bienvenido");
          System.out.println("---------------");
        
-       for ( int i=0; i<=10; i++) {
+       for ( int i=0; i<10; i++) {
        
         System.out.println("Ingrese un numero entero para la posicion " + (i+1) + ":" );
          num[i] = sc.nextInt();
