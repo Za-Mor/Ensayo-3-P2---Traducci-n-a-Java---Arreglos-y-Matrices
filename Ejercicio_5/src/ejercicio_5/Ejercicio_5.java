@@ -27,7 +27,7 @@ public class Ejercicio_5 {
                 ingre = sc.nextInt();
             }
              
-           num[i] += ingre + (i+1);
+           num[i] = ingre + (i+1);
          }   
       
       System.out.println("---------------");
