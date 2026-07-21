@@ -23,8 +23,8 @@ public class Ejercicio_3 {
       num[0] = sc.nextInt();
       mayor = num[0];
       menor = num[0];
-      posiMa = num[0];
-      posiMe = num[0];
+      posiMa = num[1];
+      posiMe = num[1];
       
      for ( int i=1; i<15; i++) {
        System.out.println("Ingrese otro numero entero: " );
@@ -41,7 +41,7 @@ public class Ejercicio_3 {
 
             }
        
-         }  
+          
      
       System.out.println("-----------------------");
       System.out.println("Numero mayor: " + mayor + " (Encontrado en la posicion: " + posiMa + ")");
